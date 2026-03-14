@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCM Digital Archive | Research Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        canalBlue: '#1a365d',
+                        brickDust: '#9c4221',
+                        parchment: '#fdfbf7',
+                        ink: '#1a1a1a',
+                    },
+                    fontFamily: {
+                        serif: ['"Libre Baskerville"', 'serif'],
+                        sans: ['"Source Sans Pro"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .ledger-line { border-bottom: 1px solid rgba(26, 54, 93, 0.1); }
+        .bg-grain { background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); }
+        .modal-shadow { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-parchment bg-grain text-ink font-sans min-h-screen">
+
+    <!-- NAVIGATION -->
+    <nav class="border-b-2 border-canalBlue p-6 bg-white/50 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="font-serif text-2xl font-bold text-canalBlue tracking-tight">Brockport Community Museum</h1>
+            <div class="hidden md:flex space-x-8 font-serif italic text-sm">
+                <a href="#" class="hover:text-brickDust">About</a>
+                <a href="#" class="hover:text-brickDust">Visit & Explore</a>
+                <a href="#" class="underline decoration-brickDust text-brickDust">Research Library</a>
+                <a href="#" class="hover:text-brickDust border border-canalBlue px-4 py-2 not-italic">Join Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="max-w-4xl mx-auto pt-16 pb-8 text-center px-4">
+        <span class="text-brickDust font-serif italic uppercase tracking-widest text-xs">Digital Archive Modernization</span>
+        <h2 class="font-serif text-4xl md:text-5xl mt-4 mb-6 text-canalBlue">The Research Library</h2>
+        <div class="h-1 w-24 bg-brickDust mx-auto mb-8"></div>
+    </header>
+
+    <!-- INTERACTIVE ARCHIVE -->
+    <main class="max-w-6xl mx-auto px-4 pb-24">
+        
+        <!-- Search & Filters -->
+        <div class="bg-white border border-gray-200 p-6 mb-8 shadow-sm">
+            <div class="flex flex-col md:flex-row gap-6 items-end">
+                <div class="flex-grow">
+                    <label class="font-serif italic text-sm block mb-2 text-canalBlue">Search by Keyword (e.g. "Canal", "Fire", "1829")</label>
+                    <input type="text" id="searchInput" placeholder="Start typing to filter records..." 
+                           class="w-full p-3 border-b-2 border-canalBlue bg-parchment focus:outline-none focus:border-brickDust font-serif text-lg">
+                </div>
+                <div class="flex gap-2">
+                    <select id="catFilter" class="p-3 bg-white border border-gray-300 font-serif text-sm focus:outline-none">
+                        <option value="All">All Categories</option>
+                        <option value="Exhibits">Exhibits</option>
+                        <option value="Panels">Interpretive Panels</option>
+                        <option value="Admin">Administrative</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="bg-white border border-gray-200 shadow-xl overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+                <thead class="bg-canalBlue text-white font-serif">
+                    <tr>
+                        <th class="p-4 uppercase text-[10px] tracking-[0.2em]">Title & Preview</th>
+                        <th class="p-4 uppercase text-[10px] tracking-[0.2em]">Category</th>
+                        <th class="p-4 uppercase text-[10px] tracking-[0.2em] text-right">Access</th>
+                    </tr>
+                </thead>
+                <tbody id="documentTable" class="font-sans">
+                    <!-- Data Injected by JS -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- MODAL FOR PREVIEW -->
+    <div id="previewModal" class="hidden fixed inset-0 bg-canalBlue/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
+        <div class="bg-parchment max-w-2xl w-full p-8 border-t-8 border-brickDust modal-shadow relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-canalBlue text-2xl font-bold">&times;</button>
+            <h3 id="modalTitle" class="font-serif text-2xl text-canalBlue mb-4"></h3>
+            <p id="modalBody" class="text-gray-700 leading-relaxed mb-8 italic"></p>
+            <a id="modalLink" href="#" target="_blank" class="inline-block bg-canalBlue text-white font-serif px-6 py-3 hover:bg-brickDust transition">Download Full PDF</a>
+        </div>
+    </div>
+
+    <script>
+let documents = [];
+
+// FETCH DATA FROM THE "FILING CABINET" (data.json)
+async function loadData() {
+    try {
+        const response = await fetch('data.json');
+        documents = await response.json();
+        renderTable(documents);
+    } catch (error) {
+        console.error("Error loading the filing cabinet:", error);
+    }
+}
+
+function renderTable(data) {
+    const table = document.getElementById('documentTable');
+    table.innerHTML = data.map((doc, index) => `
+        <tr class="ledger-line hover:bg-parchment transition group">
+            <td class="p-4">
+                <div class="font-bold text-canalBlue text-lg group-hover:text-brickDust transition cursor-pointer" onclick="openPreview(${index})">
+                    ${doc.title}
+                </div>
+                <div class="text-xs text-gray-500 italic mt-1 font-serif">Click to read summary</div>
+            </td>
+            <td class="p-4">
+                <span class="text-[10px] uppercase tracking-widest border border-gray-300 px-2 py-1 bg-white">
+                    ${doc.cat}
+                </span>
+            </td>
+            <td class="p-4 text-right">
+                <a href="archive/${doc.file}" target="_blank" class="inline-block border-2 border-canalBlue p-2 hover:bg-canalBlue hover:text-white transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </a>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// Search & Filter Logic (Same as before)
+function updateTable() {
+    const term = document.getElementById('searchInput').value.toLowerCase();
+    const cat = document.getElementById('catFilter').value;
+    const filtered = documents.filter(doc => {
+        const matchesSearch = doc.title.toLowerCase().includes(term) || doc.summary.toLowerCase().includes(term);
+        const matchesCat = cat === 'All' || doc.cat === cat;
+        return matchesSearch && matchesCat;
+    });
+    renderTable(filtered);
+}
+
+document.getElementById('searchInput').addEventListener('input', updateTable);
+document.getElementById('catFilter').addEventListener('change', updateTable);
+
+function openPreview(index) {
+    const doc = documents[index];
+    document.getElementById('modalTitle').innerText = doc.title;
+    document.getElementById('modalBody').innerText = doc.summary;
+    document.getElementById('modalLink').href = 'archive/' + doc.file;
+    document.getElementById('previewModal').classList.remove('hidden');
+}
+
+function closeModal() {
+    document.getElementById('previewModal').classList.add('hidden');
+}
+
+// INITIAL LOAD FROM EXTERNAL FILE
+loadData();
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "archive" # Where PDFs will be uploaded
+public_folder: "archive"
+
+collections:
+  - name: "documents"
+    label: "Library Records"
+    file: "data.json" # The file we are editing
+    allow_add: true
+    fields:
+      - label: "All Documents"
+        name: "documents"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Category", name: "cat", widget: "select", options: ["Exhibits", "Panels", "Admin"] }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "PDF File", name: "file", widget: "file" }
