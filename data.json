@@ -1,220 +1,214 @@
 {
-  "documents": [
-    {
-      "title": "2016 Exhibit Case Venues",
-      "cat": "Admin",
-      "file": "2016 Exhibit Case Venues.pdf",
-      "summary": "A guide to the nine venues and seasonal exhibit rotations for local history displays throughout Brockport in 2016."
-    },
-    {
-      "title": "2017 Exhibit Case Venues",
-      "cat": "Admin",
-      "file": "2017 Exhibit Case Venues v.2.pdf",
-      "summary": "Details on the partnership between the museum and local businesses to showcase artifacts related to the Civil War and firefighting."
-    },
-    {
-      "title": "2018 Exhibit Case Venues",
-      "cat": "Admin",
-      "file": "2018 Exhibit Case Venues v.2.pdf",
-      "summary": "The 2018 venue list providing contact information and themes for exhibit cases located in public buildings and banks."
-    },
-    {
-      "title": "2019-20 Museum Calendar",
-      "cat": "Admin",
-      "file": "2019-20 Calendar v.2020.01.09.pdf",
-      "summary": "Official schedule for the Board of Trustees, including meeting dates, officer nominations, and the annual picnic details."
-    },
-    {
-      "title": "Bridges and Trails (IP)",
-      "cat": "Panels",
-      "file": "A Bridges %3A Trail IP 20210725.pdf",
-      "summary": "Documentation of the interpretive panels installed along the Erie Canal, funded by the NYS Canal Corporation."
-    },
-    {
-      "title": "Helen Smagorinsky & Campus History",
-      "cat": "Panels",
-      "file": "B HFSmagorinsky IP 20210725.pdf",
-      "summary": "Visual representations of Brockport’s history highlighting notable figures like Helen Smagorinsky and early street layouts."
-    },
-    {
-      "title": "Erie Canal Artifacts & Receipts",
-      "cat": "Exhibits",
-      "file": "bandc.pdf",
-      "summary": "A collection of 19th-century toll receipts, liftbridge diagrams, and postcards documenting Brockport's canal prosperity."
-    },
-    {
-      "title": "BCM Destinations Overview",
-      "cat": "Admin",
-      "file": "BCM Destinations 2017.10.11.pdf",
-      "summary": "A summary of the 'Museum Without Walls' mission and a list of locations for interpretive panels throughout the community."
-    },
-    {
-      "title": "Outdoor Art Interpretive Panel",
-      "cat": "Panels",
-      "file": "C Outdoor Art IP  20210725.pdf",
-      "summary": "Details regarding the dedication of the non-museum interpretive panel located in front of the Water Street Welcome Center."
-    },
-    {
-      "title": "Canal Commerce Panel",
-      "cat": "Panels",
-      "file": "canalcommerce.pdf",
-      "summary": "A report on the Main Street bridge panel dedicated in 2011, documenting the commercial history of the Erie Canal."
-    },
-    {
-      "title": "Historic Downtown Churches",
-      "cat": "Panels",
-      "file": "Churches IP 01.pdf",
-      "summary": "An interpretive panel located in Sagawa Park highlighting the architectural and cultural history of Brockport's churches."
-    },
-    {
-      "title": "Civil War History in Brockport",
-      "cat": "Exhibits",
-      "file": "civilwar.pdf",
-      "summary": "A comprehensive look at Civil War recruitment, casualty rates, and personal accounts from soldier John T. Farnham."
-    },
-    {
-      "title": "Erie Canal Kiosk Project",
-      "cat": "Panels",
-      "file": "D Brockport Erie Canal Kiosk 20210731.pdf",
-      "summary": "A project report concerning the educational displays and kiosks installed for public viewing along the canal."
-    },
-    {
-      "title": "Early Farming & Farm Families",
-      "cat": "Panels",
-      "file": "Farms Families IP 01.pdf",
-      "summary": "Documentation of the farm history panel funded by the Town of Sweden Harvest Festival and dedicated in 2014."
-    },
-    {
-      "title": "Fire Department History Panel",
-      "cat": "Panels",
-      "file": "firedept.pdf",
-      "summary": "Information on the interpretive panel located at the Brockport Fire Department, dedicated to emergency service history."
-    },
-    {
-      "title": "Firefighting in Brockport Exhibit",
-      "cat": "Exhibits",
-      "file": "firefighting.pdf",
-      "summary": "Exhibit catalog featuring scale models of 1930s fire trucks and historical firefighter badges from 1877 to 1972."
-    },
-    {
-      "title": "Friends of the Museum",
-      "cat": "Admin",
-      "file": "friends.pdf",
-      "summary": "Recognition of community supporters, sponsors, and volunteers who contribute talent and collections to the museum."
-    },
-    {
-      "title": "Higher Education in Brockport",
-      "cat": "Panels",
-      "file": "highered.pdf",
-      "summary": "A collaborative project with SUNY Brockport highlighting the history of the Normal School and early campus buildings."
-    },
-    {
-      "title": "J. Capen Hydrant History",
-      "cat": "Panels",
-      "file": "J. Capen IP 20220215.pdf",
-      "summary": "A unique panel mounted on a fire hydrant detailing its history at the Duffy-Mott company and local firefighting equipment."
-    },
-    {
-      "title": "1979 Special Olympics Panel",
-      "cat": "Panels",
-      "file": "K. Special Olympics 20220215.pdf",
-      "summary": "Commemoration of the Fifth International Special Olympics held at the SUNY Brockport campus."
-    },
-    {
-      "title": "Morgan-Manning House & History",
-      "cat": "Panels",
-      "file": "L. Morgan - Manning 2022.03.19.pdf",
-      "summary": "Documentation of the interpretive panel dedicated to the history and contributions of the Morgan family in Brockport."
-    },
-    {
-      "title": "Erie Canal Panel Redesign",
-      "cat": "Panels",
-      "file": "M. Canal IP redo 20220215.pdf",
-      "summary": "Details on the 2021 project to update and replace aging canal panels with new designs by Norm Frisch."
-    },
-    {
-      "title": "Main & Market Street History",
-      "cat": "Panels",
-      "file": "Main St. IP 01.pdf",
-      "summary": "A panel funded by local 4th and 5th grade classes detailing the commercial history of the Main Street intersection."
-    },
-    {
-      "title": "Manufacturing in Brockport (Part 1)",
-      "cat": "Exhibits",
-      "file": "manu1.pdf",
-      "summary": "A collection of artifacts from local factories, including the Great Lakes Button Corp and Brockport Piano Co."
-    },
-    {
-      "title": "Manufacturing in Brockport (Part 2)",
-      "cat": "Exhibits",
-      "file": "manu2.pdf",
-      "summary": "Industrial history focusing on Owens-Illinois Glass, General Electric, and Black & Decker operations in Brockport."
-    },
-    {
-      "title": "Life of Mary Jane Holmes",
-      "cat": "Exhibits",
-      "file": "maryjamesholmes.pdf",
-      "summary": "An exploration of the celebrity author's 40 novels and her status as a leading 19th-century woman novelist."
-    },
-    {
-      "title": "Updated Manufacturing Panels",
-      "cat": "Panels",
-      "file": "N. Manufacturing IP 20220215.pdf",
-      "summary": "The 2021 replacement series for manufacturing interpretive panels along the Erie Canal trail."
-    },
-    {
-      "title": "A.D. Oliver School & Canal History",
-      "cat": "Exhibits",
-      "file": "oliverschool.pdf",
-      "summary": "Artifacts showcased at the middle school, including mule shoes and canal bridge diagrams from the early 1800s."
-    },
-    {
-      "title": "Postcards of Brockport (1910)",
-      "cat": "Exhibits",
-      "file": "postcards.pdf",
-      "summary": "A visual catalog of Brockport from a century ago, featuring the Monroe County Fair and historic local hotels."
-    },
-    {
-      "title": "The Protectives History Panel",
-      "cat": "Panels",
-      "file": "protectives.pdf",
-      "summary": "A historical panel commemorating the Protectives, Inc. No. 1 and their long-standing presence in the community."
-    },
-    {
-      "title": "Public Education in Brockport",
-      "cat": "Panels",
-      "file": "pubed.pdf",
-      "summary": "The museum's first interpretive panel (2006) focusing on the history of the A.D. Oliver school and local education."
-    },
-    {
-      "title": "Retail Trade & 20th Century Commerce",
-      "cat": "Exhibits",
-      "file": "retailandtrade.pdf",
-      "summary": "An archive of commercial artifacts, trade cards, and merchandise sold in Brockport during the early 1900s."
-    },
-    {
-      "title": "Sagawa Park Murals",
-      "cat": "Panels",
-      "file": "Sagawa mural IP 03.pdf",
-      "summary": "Documentation of the mural panels dedicated in 2016 to provide historical context for the village park."
-    },
-    {
-      "title": "Museum Tour Map & Guide",
-      "cat": "Admin",
-      "file": "tourmap.pdf",
-      "summary": "The master guide for the self-guided tour of Brockport’s 21 interpretive panels and 9 exhibit cases."
-    },
-    {
-      "title": "Venue & Theme Overview",
-      "cat": "Admin",
-      "file": "venues.pdf",
-      "summary": "A high-level summary of museum partners and the nine major themes rotated through local exhibit cases."
-    },
-    {
-      "file": "archive/test.pdf.pdf",
-      "title": "a test file for checking the upload procedure",
-      "cat": "Panels",
-      "summary": "this is a summary of the file."
-    }
-  ]
+    "documents": [
+        {
+            "title": "2016 Exhibit Case Venues",
+            "cat": "Admin",
+            "file": "2016 Exhibit Case Venues.pdf",
+            "summary": "A guide to the nine venues and seasonal exhibit rotations for local history displays throughout Brockport in 2016."
+        },
+        {
+            "title": "2017 Exhibit Case Venues",
+            "cat": "Admin",
+            "file": "2017 Exhibit Case Venues v.2.pdf",
+            "summary": "Details on the partnership between the museum and local businesses to showcase artifacts related to the Civil War and firefighting."
+        },
+        {
+            "title": "2018 Exhibit Case Venues",
+            "cat": "Admin",
+            "file": "2018 Exhibit Case Venues v.2.pdf",
+            "summary": "The 2018 venue list providing contact information and themes for exhibit cases located in public buildings and banks."
+        },
+        {
+            "title": "2019-20 Museum Calendar",
+            "cat": "Admin",
+            "file": "2019-20 Calendar v.2020.01.09.pdf",
+            "summary": "Official schedule for the Board of Trustees, including meeting dates, officer nominations, and the annual picnic details."
+        },
+        {
+            "title": "Bridges and Trails (IP)",
+            "cat": "Panels",
+            "file": "A Bridges %3A Trail IP 20210725.pdf",
+            "summary": "Documentation of the interpretive panels installed along the Erie Canal, funded by the NYS Canal Corporation."
+        },
+        {
+            "title": "Helen Smagorinsky & Campus History",
+            "cat": "Panels",
+            "file": "B HFSmagorinsky IP 20210725.pdf",
+            "summary": "Visual representations of Brockport\u00e2\u20ac\u2122s history highlighting notable figures like Helen Smagorinsky and early street layouts."
+        },
+        {
+            "title": "Erie Canal Artifacts & Receipts",
+            "cat": "Exhibits",
+            "file": "bandc.pdf",
+            "summary": "A collection of 19th-century toll receipts, liftbridge diagrams, and postcards documenting Brockport's canal prosperity."
+        },
+        {
+            "title": "BCM Destinations Overview",
+            "cat": "Admin",
+            "file": "BCM Destinations 2017.10.11.pdf",
+            "summary": "A summary of the 'Museum Without Walls' mission and a list of locations for interpretive panels throughout the community."
+        },
+        {
+            "title": "Outdoor Art Interpretive Panel",
+            "cat": "Panels",
+            "file": "C Outdoor Art IP  20210725.pdf",
+            "summary": "Details regarding the dedication of the non-museum interpretive panel located in front of the Water Street Welcome Center."
+        },
+        {
+            "title": "Canal Commerce Panel",
+            "cat": "Panels",
+            "file": "canalcommerce.pdf",
+            "summary": "A report on the Main Street bridge panel dedicated in 2011, documenting the commercial history of the Erie Canal."
+        },
+        {
+            "title": "Historic Downtown Churches",
+            "cat": "Panels",
+            "file": "Churches IP 01.pdf",
+            "summary": "An interpretive panel located in Sagawa Park highlighting the architectural and cultural history of Brockport's churches."
+        },
+        {
+            "title": "Civil War History in Brockport",
+            "cat": "Exhibits",
+            "file": "civilwar.pdf",
+            "summary": "A comprehensive look at Civil War recruitment, casualty rates, and personal accounts from soldier John T. Farnham."
+        },
+        {
+            "title": "Erie Canal Kiosk Project",
+            "cat": "Panels",
+            "file": "D Brockport Erie Canal Kiosk 20210731.pdf",
+            "summary": "A project report concerning the educational displays and kiosks installed for public viewing along the canal."
+        },
+        {
+            "title": "Early Farming & Farm Families",
+            "cat": "Panels",
+            "file": "Farms Families IP 01.pdf",
+            "summary": "Documentation of the farm history panel funded by the Town of Sweden Harvest Festival and dedicated in 2014."
+        },
+        {
+            "title": "Fire Department History Panel",
+            "cat": "Panels",
+            "file": "firedept.pdf",
+            "summary": "Information on the interpretive panel located at the Brockport Fire Department, dedicated to emergency service history."
+        },
+        {
+            "title": "Firefighting in Brockport Exhibit",
+            "cat": "Exhibits",
+            "file": "firefighting.pdf",
+            "summary": "Exhibit catalog featuring scale models of 1930s fire trucks and historical firefighter badges from 1877 to 1972."
+        },
+        {
+            "title": "Friends of the Museum",
+            "cat": "Admin",
+            "file": "friends.pdf",
+            "summary": "Recognition of community supporters, sponsors, and volunteers who contribute talent and collections to the museum."
+        },
+        {
+            "title": "Higher Education in Brockport",
+            "cat": "Panels",
+            "file": "highered.pdf",
+            "summary": "A collaborative project with SUNY Brockport highlighting the history of the Normal School and early campus buildings."
+        },
+        {
+            "title": "J. Capen Hydrant History",
+            "cat": "Panels",
+            "file": "J. Capen IP 20220215.pdf",
+            "summary": "A unique panel mounted on a fire hydrant detailing its history at the Duffy-Mott company and local firefighting equipment."
+        },
+        {
+            "title": "1979 Special Olympics Panel",
+            "cat": "Panels",
+            "file": "K. Special Olympics 20220215.pdf",
+            "summary": "Commemoration of the Fifth International Special Olympics held at the SUNY Brockport campus."
+        },
+        {
+            "title": "Morgan-Manning House & History",
+            "cat": "Panels",
+            "file": "L. Morgan - Manning 2022.03.19.pdf",
+            "summary": "Documentation of the interpretive panel dedicated to the history and contributions of the Morgan family in Brockport."
+        },
+        {
+            "title": "Erie Canal Panel Redesign",
+            "cat": "Panels",
+            "file": "M. Canal IP redo 20220215.pdf",
+            "summary": "Details on the 2021 project to update and replace aging canal panels with new designs by Norm Frisch."
+        },
+        {
+            "title": "Main & Market Street History",
+            "cat": "Panels",
+            "file": "Main St. IP 01.pdf",
+            "summary": "A panel funded by local 4th and 5th grade classes detailing the commercial history of the Main Street intersection."
+        },
+        {
+            "title": "Manufacturing in Brockport (Part 1)",
+            "cat": "Exhibits",
+            "file": "manu1.pdf",
+            "summary": "A collection of artifacts from local factories, including the Great Lakes Button Corp and Brockport Piano Co."
+        },
+        {
+            "title": "Manufacturing in Brockport (Part 2)",
+            "cat": "Exhibits",
+            "file": "manu2.pdf",
+            "summary": "Industrial history focusing on Owens-Illinois Glass, General Electric, and Black & Decker operations in Brockport."
+        },
+        {
+            "title": "Life of Mary Jane Holmes",
+            "cat": "Exhibits",
+            "file": "maryjamesholmes.pdf",
+            "summary": "An exploration of the celebrity author's 40 novels and her status as a leading 19th-century woman novelist."
+        },
+        {
+            "title": "Updated Manufacturing Panels",
+            "cat": "Panels",
+            "file": "N. Manufacturing IP 20220215.pdf",
+            "summary": "The 2021 replacement series for manufacturing interpretive panels along the Erie Canal trail."
+        },
+        {
+            "title": "A.D. Oliver School & Canal History",
+            "cat": "Exhibits",
+            "file": "oliverschool.pdf",
+            "summary": "Artifacts showcased at the middle school, including mule shoes and canal bridge diagrams from the early 1800s."
+        },
+        {
+            "title": "Postcards of Brockport (1910)",
+            "cat": "Exhibits",
+            "file": "postcards.pdf",
+            "summary": "A visual catalog of Brockport from a century ago, featuring the Monroe County Fair and historic local hotels."
+        },
+        {
+            "title": "The Protectives History Panel",
+            "cat": "Panels",
+            "file": "protectives.pdf",
+            "summary": "A historical panel commemorating the Protectives, Inc. No. 1 and their long-standing presence in the community."
+        },
+        {
+            "title": "Public Education in Brockport",
+            "cat": "Panels",
+            "file": "pubed.pdf",
+            "summary": "The museum's first interpretive panel (2006) focusing on the history of the A.D. Oliver school and local education."
+        },
+        {
+            "title": "Retail Trade & 20th Century Commerce",
+            "cat": "Exhibits",
+            "file": "retailandtrade.pdf",
+            "summary": "An archive of commercial artifacts, trade cards, and merchandise sold in Brockport during the early 1900s."
+        },
+        {
+            "title": "Sagawa Park Murals",
+            "cat": "Panels",
+            "file": "Sagawa mural IP 03.pdf",
+            "summary": "Documentation of the mural panels dedicated in 2016 to provide historical context for the village park."
+        },
+        {
+            "title": "Museum Tour Map & Guide",
+            "cat": "Admin",
+            "file": "tourmap.pdf",
+            "summary": "The master guide for the self-guided tour of Brockport\u00e2\u20ac\u2122s 21 interpretive panels and 9 exhibit cases."
+        },
+        {
+            "title": "Venue & Theme Overview",
+            "cat": "Admin",
+            "file": "venues.pdf",
+            "summary": "A high-level summary of museum partners and the nine major themes rotated through local exhibit cases."
+        }
+    ]
 }
