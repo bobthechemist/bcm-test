@@ -1,0 +1,9 @@
+[build]
+  publish = "/"
+  command = ""
+
+[admin]
+  module = "decap-cms"
+
+[identity]
+  external_providers = ["github"]
