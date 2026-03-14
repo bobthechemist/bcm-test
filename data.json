@@ -1,249 +1,249 @@
 {
-    "documents": [
-        {
-            "title": "2016 Exhibit Case Venues",
-            "cat": "Admin",
-            "file": "2016 Exhibit Case Venues.pdf",
-            "summary": "This is a 2016 exhibit schedule for the Brockport Community Museum, listing various venues and dates for each exhibit, which covers themes such as manufacturing, history, and local events in Brockport, NY. The schedule includes specific dates for exhibits like \"Manufacturing in Brockport\" and \"Brockport in the Civil War\". The document also provides information on the hosting locations and contact details for each exhibit.",
-            "keywords": "Brockport Community Museum, Exhibits, 2016, Manufacturing, History"
-        },
-        {
-            "title": "2017 Exhibit Case Venues",
-            "cat": "Admin",
-            "file": "2017 Exhibit Case Venues v.2.pdf",
-            "summary": "The Brockport Community Museum is listing its 2017 exhibit case venues, which feature various themes such as manufacturing, the Civil War, and postcards of Brockport. The exhibit cases are located indoors in several venues throughout Brockport, NY. The list includes 9 host locations with their addresses and phone numbers.",
-            "keywords": "Brockport, Community Museum, Exhibits, 2017, Brockport NY"
-        },
-        {
-            "title": "2018 Exhibit Case Venues",
-            "cat": "Admin",
-            "file": "2018 Exhibit Case Venues v.2.pdf",
-            "summary": "This document outlines the exhibit cases and host locations for the 2018 exhibit venues at the Brockport Community Museum in Brockport, NY. The exhibit cases cover various themes, including manufacturing, history, and community events, and are located in various host locations throughout the city. The document provides information on the dates and locations for each exhibit case.",
-            "keywords": "Brockport, Community Museum, 2018, Exhibits, Host Locations"
-        },
-        {
-            "title": "2019-20 Museum Calendar",
-            "cat": "Admin",
-            "file": "2019-20 Calendar v.2020.01.09.pdf",
-            "summary": "This is the 2019-2020 calendar for the Brockport Community Museum, outlining the schedule of board meetings, executive committee meetings, and important deadlines. The calendar includes key names and dates, including board members and their positions, as well as events such as the annual meeting and picnic. The document also includes rules and guidelines for distributing agendas and minutes.",
-            "keywords": "Brockport Community Museum, Board Meetings, Executive Committee, Allan R. Berry, Garrett W. Roe"
-        },
-        {
-            "title": "Bridges and Trails (IP)",
-            "cat": "Panels",
-            "file": "A Bridges %3A Trail IP 20210725.pdf",
-            "summary": "This document appears to be a project plan for an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project includes panels highlighting various aspects of the town's history, including education, fire fighting, commerce, and early farming. The document includes a list of panel locations, topics, and sponsors.",
-            "keywords": "Brockport Community Museum, interpretive panels, history, education, fire fighting, commerce, early farming, Brockport NY, canal commerce, SUNY College at Brockport."
-        },
-        {
-            "title": "Helen Smagorinsky & Campus History",
-            "cat": "Panels",
-            "file": "B HFSmagorinsky IP 20210725.pdf",
-            "summary": "This document appears to be a map of the Brockport, NY area, highlighting various locations of historical significance, including schools, churches, and museums. The document is part of an interpretive panels project, which aims to provide context and information about the area's history. The project includes exhibits, historic markers, and interactive panels.",
-            "keywords": "Brockport, NY, historical markers, interpretive panels, community museum, SUNY College at Brockport, Fire Department, Canal Commerce, downtown churches, early farming, Portraits of Our Past mural."
-        },
-        {
-            "title": "Erie Canal Artifacts & Receipts",
-            "cat": "Exhibits",
-            "file": "bandc.pdf",
-            "summary": "This exhibit case at the Brockport Community Museum explores the history of the Erie Canal and its impact on the town of Brockport, New York, from the early 19th century to the early 20th century. Key events and figures mentioned in the document include the opening of the canal in 1825, the major centers of farm implement manufacturing in Brockport, and the reconstruction of the canal in 1915. The exhibit also highlights the role of local businesses and individuals, such as the Samuel Johnston Co. and the Cleveland Construction Co.",
-            "keywords": "Brockport, Erie Canal, 19th century, 20th century, William Clifford"
-        },
-        {
-            "title": "BCM Destinations Overview",
-            "cat": "Admin",
-            "file": "BCM Destinations 2017.10.11.pdf",
-            "summary": "The Brockport Community Museum is a non-profit organization that brings local history to residents and visitors through interpretive panels and exhibit cases placed throughout the greater Brockport area. The museum, chartered in 2010, has no building of its own and is referred to as a \"Museum without Walls.\" The museum's mission is to educate and engage the community with its local history.",
-            "keywords": "Brockport, Community Museum, Local History, Interpretive Panels, Exhibits"
-        },
-        {
-            "title": "Outdoor Art Interpretive Panel",
-            "cat": "Panels",
-            "file": "C Outdoor Art IP  20210725.pdf",
-            "summary": "The document appears to be a project plan for the Brockport Community Museum's Interpretive Panels Project, which was dedicated on November 14, 2020. The project includes the installation of interpretive panels, exhibit cases, and historic markers throughout the town of Brockport, NY, to provide information about the town's history and attractions. The project was funded by William G. Andrews.",
-            "keywords": "Brockport, NY, Interpretive Panels Project, William G. Andrews, Historic Markers, Exhibit Cases."
-        },
-        {
-            "title": "Canal Commerce Panel",
-            "cat": "Panels",
-            "file": "canalcommerce.pdf",
-            "summary": "The Brockport Community Museum installed an interpretive panel on the Main Street bridge, funded by Express Mart and Northside Service Center, as part of a larger project. The panel was dedicated on October 29, 2011. The installation is located on the canal abutment railing on the south-east corner of the bridge.",
-            "keywords": "Brockport Community Museum, Express Mart, Northside Service Center, Main Street bridge, October 29 2011"
-        },
-        {
-            "title": "Historic Downtown Churches",
-            "cat": "Panels",
-            "file": "Churches IP 01.pdf",
-            "summary": "The Brockport Community Museum installed an interpretive panel in Sagawa Park, funded by local churches and dedicated on October 19, 2013. The panel is located near several prominent churches in Brockport, NY. This panel is part of a larger project initiated by the Museum.",
-            "keywords": "Brockport Community Museum, Interpretive Panels, Brockport Churches, Sagawa Park, October 19, 2013"
-        },
-        {
-            "title": "Civil War History in Brockport",
-            "cat": "Exhibits",
-            "file": "civilwar.pdf",
-            "summary": "This document is an exhibit case from the Brockport Community Museum, highlighting the history of Brockport, NY during the American Civil War. The exhibit features the stories of two local soldiers, Morton A. Read and Lester Cady, who were awarded the Medal of Honor and imprisoned during the war. The exhibit also includes artifacts from the Erie Canal and its enlargement during the 20th century.",
-            "keywords": "Brockport, NY, American Civil War, Erie Canal, Morton A. Read, Lester Cady, Medal of Honor, Grand Army of the Republic"
-        },
-        {
-            "title": "Erie Canal Kiosk Project",
-            "cat": "Panels",
-            "file": "D Brockport Erie Canal Kiosk 20210731.pdf",
-            "summary": "The Brockport Community Museum's Interpretive Panels Project features a collection of panels highlighting various aspects of Brockport, NY's history, including its education, fire fighting, canal commerce, and downtown area. The project includes photographs and descriptions of the panels' locations around the town. The document also lists historic markers and exhibit cases throughout the area.",
-            "keywords": "Brockport, NY, Interpretive Panels, Historic Markers, Exhibit Cases, Canal Commerce, Fire Fighting, Education, Downtown Brockport"
-        },
-        {
-            "title": "Early Farming & Farm Families",
-            "cat": "Panels",
-            "file": "Farms Families IP 01.pdf",
-            "summary": "The Brockport Community Museum in Brockport, NY placed an interpretive panel, funded by the Town of Sweden Harvest Festival, in September 2014. The panel is located behind the Town of Sweden Farmers Museum and faces west towards Lake Road (Rt. 19). This is the eighth panel placed by the museum.",
-            "keywords": "Brockport Community Museum, Town of Sweden Harvest Festival, September 2014, Interpretive Panel, Lake Road"
-        },
-        {
-            "title": "Fire Department History Panel",
-            "cat": "Panels",
-            "file": "firedept.pdf",
-            "summary": "The Brockport Community Museum installed an interpretive panel in 2011 with funding from the Brockport Fire Department. The panel is located in front of the Brockport Fire Department building on Market Street. The project was documented with photographs by Norm Frisch.",
-            "keywords": "Brockport, Community, Museum, Interpretive, Panels"
-        },
-        {
-            "title": "Firefighting in Brockport Exhibit",
-            "cat": "Exhibits",
-            "file": "firefighting.pdf",
-            "summary": "This historical document is from the Brockport Community Museum and showcases the history of firefighting in Brockport, NY, with a focus on the 19th and 20th centuries. The document includes exhibit case descriptions, photographs, and historical documents, such as a 1829 village ordinance requiring building owners to keep fire buckets. It also highlights notable events and individuals, including the 41st Annual Convention of the Western New York Association of Volunteer Firefighters in 1940.",
-            "keywords": "Brockport, NY, Firefighting, Western New York Association of Volunteer Firefighters, Capen Hose Company, Historical Documents"
-        },
-        {
-            "title": "Friends of the Museum",
-            "cat": "Admin",
-            "file": "friends.pdf",
-            "summary": "The Brockport Community Museum recognizes and acknowledges the support and contributions of various individuals and organizations to the museum, including donors, sponsors, and volunteers. The document lists the different types of membership classifications and acknowledges the contributions of specific individuals and organizations in 2010 and 2012. The document highlights the importance of community support to the museum.",
-            "keywords": "Brockport Community Museum, membership classifications, community support, donations, volunteers"
-        },
-        {
-            "title": "Higher Education in Brockport",
-            "cat": "Panels",
-            "file": "highered.pdf",
-            "summary": "This document details the creation and dedication of an interpretive panel in Brockport, NY, sponsored by The College at Brockport. The panel was dedicated on December 5, 2008, and features a collaborative effort between the college, the museum, and local community members. The document highlights the committee members, acknowledgments, and image sources used for the panel.",
-            "keywords": "Brockport, NY, College at Brockport, Interpretive Panels, Community Museum, Committee Members"
-        },
-        {
-            "title": "J. Capen Hydrant History",
-            "cat": "Panels",
-            "file": "J. Capen IP 20220215.pdf",
-            "summary": "The document appears to be a project plan for the Brockport Community Museum's interpretive panels project, which aims to educate visitors about the history of Brockport, NY. The project involves installing panels throughout the city, funded by various organizations and individuals. The panels are designed to showcase the history of Brockport's education, fire fighting, canal commerce, and other significant aspects of the city's past.",
-            "keywords": "Brockport, NY, Capen Hose Co. No.4, Interpretive Panels, History, Museum, Community, Education, Fire Fighting, Canal Commerce, SUNY College at Brockport, Historic Downtown Churches."
-        },
-        {
-            "title": "1979 Special Olympics Panel",
-            "cat": "Panels",
-            "file": "K. Special Olympics 20220215.pdf",
-            "summary": "The document appears to be a guide to an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project includes panels and exhibit cases that showcase the history of the area, including education, fire fighting, canal commerce, and early farming. The project was funded by SUNY College at Brockport and dedicated on September 27, 2019.",
-            "keywords": "Brockport, NY, SUNY College, SUNY College at Brockport, Interpretive Panels, Historical Markers, Exhibit Cases, Community Museum, Education, Fire Fighting, Canal Commerce"
-        },
-        {
-            "title": "Morgan-Manning House & History",
-            "cat": "Panels",
-            "file": "L. Morgan - Manning 2022.03.19.pdf",
-            "summary": "This document appears to be a project report for the Brockport Community Museum's Interpretive Panels Project, which aims to highlight the history of Brockport, NY through various exhibits and panels. The project was funded by the Western Monroe Historical Society and dedicated to the memory of Fletcher and Alice Garlock. The report includes details on the location and content of the panels, as well as other exhibits and markers.",
-            "keywords": "Brockport, NY, Interpretive Panels, Western Monroe Historical Society, Fletcher Garlock, Alice Garlock, Morgan-Manning House, Historic Markers, Exhibit Cases, Brockport Community Museum."
-        },
-        {
-            "title": "Erie Canal Panel Redesign",
-            "cat": "Panels",
-            "file": "M. Canal IP redo 20220215.pdf",
-            "summary": "The document appears to be a project plan for an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project aims to install panels and markers to provide historical information and context to various sites and buildings in the area. The project was completed in 2021.",
-            "keywords": "Brockport Community Museum, Brockport NY, Interpretive Panels, Historical Markers, Exhibits Cases"
-        },
-        {
-            "title": "Main & Market Street History",
-            "cat": "Panels",
-            "file": "Main St. IP 01.pdf",
-            "summary": "The Brockport Community Museum installed an interpretive panel, funded by 4th and 5th grade students, on May 4, 2013, in downtown Brockport, NY. The panel is located near the intersection of Main and Market Streets. The project is part of the Museum's efforts to engage with the community.",
-            "keywords": "Brockport Community Museum, Interpretive Panels Project, Mary Wanzer, Eileen Youngbluth, 2013"
-        },
-        {
-            "title": "Manufacturing in Brockport (Part 1)",
-            "cat": "Exhibits",
-            "file": "manu1.pdf",
-            "summary": "This document details the proposed exhibit \"Manufacturing in Brockport\" at the Brockport Community Museum, featuring objects manufactured in Brockport, including items from various companies such as Karge & Son, Great Lakes Button Corp., and Owens-Illinois Glass Co. The exhibit aims to showcase the city's industrial history, particularly related to the Erie Canal and its enlargement in the early 20th century. The document includes a list of artifacts, their lenders, and the setup team.",
-            "keywords": "Brockport Community Museum, Manufacturing in Brockport, Erie Canal, Brockport NY, Industrial history"
-        },
-        {
-            "title": "Manufacturing in Brockport (Part 2)",
-            "cat": "Exhibits",
-            "file": "manu2.pdf",
-            "summary": "The document is an exhibit case description from the Brockport Community Museum, highlighting the town's manufacturing history, including the production of pianos, glass bottles, and food products, as well as its involvement in the Erie Canal and its impact on the local economy. The document features various artifacts and notes the contributions of local businesses and individuals to the town's prosperity. The exhibit case is divided into three parts, showcasing the town's manufacturing history from the early 19th century to the mid-20th century.",
-            "keywords": "Brockport, NY, Erie Canal, Manufacturing, Industry, Local History"
-        },
-        {
-            "title": "Life of Mary Jane Holmes",
-            "cat": "Exhibits",
-            "file": "maryjamesholmes.pdf",
-            "summary": "This document describes the life and work of Mary Jane Holmes, a prominent American novelist in the 19th century who lived in Brockport, NY. The exhibit case features original copies of her books, showcasing her unique portrayal of strong, independent women. Holmes was a prolific author, publishing over 40 novels and short story collections, and her work was widely read by millions of women and girls.",
-            "keywords": "Mary Jane Holmes, Brockport Community Museum, 19th century novelist, Women's literature, Suffragette movement"
-        },
-        {
-            "title": "Updated Manufacturing Panels",
-            "cat": "Panels",
-            "file": "N. Manufacturing IP 20220215.pdf",
-            "summary": "The document appears to be a project summary for the Brockport Community Museum's Interpretive Panels Project, which involved creating and installing 31 panels in the village of Brockport, NY. The project was completed in 2021 and features a mix of interpretive panels and exhibit cases showcasing the history and culture of the area. The document highlights the various panels and cases, which focus on topics such as public education, higher education, fire fighting, canal commerce, and historic downtown churches.",
-            "keywords": "Brockport, NY, Interpretive Panels, History, Culture, Museum, Community, Education, Fire Fighting, Canal Commerce, Downtown Churches, Farming, Family, SUNY College at Brockport."
-        },
-        {
-            "title": "A.D. Oliver School & Canal History",
-            "cat": "Exhibits",
-            "file": "oliverschool.pdf",
-            "summary": "This document is an exhibit case from the Brockport Community Museum, showcasing the history of the Erie Canal and its impact on the town of Brockport, NY. The exhibit features various artifacts, maps, and documents from the 1820s to the 1950s, highlighting the canal's construction, operation, and eventual conversion to power craft. Key figures mentioned include William Clifford, District Superintendent of the NYS Canal Corporation, and companies such as the Samuel Johnston Co. and the Cleveland Construction Co.",
-            "keywords": "Brockport, NY, Erie Canal, Oliver School Building, William Clifford, Erie Canal Corporation"
-        },
-        {
-            "title": "Postcards of Brockport (1910)",
-            "cat": "Exhibits",
-            "file": "postcards.pdf",
-            "summary": "This document is an exhibit case description from the Brockport Community Museum, featuring a collection of postcards from Brockport, NY, dating back to around 1910. The exhibit showcases various buildings, hotels, and landmarks from the time period, including schools, churches, and businesses. The document also encourages visitors to explore the museum's physical exhibits located throughout the community.",
-            "keywords": "Brockport, NY, Postcards, 1910, Historical Landmarks, Community Museum"
-        },
-        {
-            "title": "The Protectives History Panel",
-            "cat": "Panels",
-            "file": "protectives.pdf",
-            "summary": "The Brockport Community Museum installed an interpretive panel sponsored by The Protectives, Inc. on September 18, 1010. The panel is located in front of the Protectives building on West Avenue. The museum had previously installed two other panels.",
-            "keywords": "Brockport Community Museum, The Protectives, Inc., Interpretive Panels, West Avenue, September 18, 1010"
-        },
-        {
-            "title": "Public Education in Brockport",
-            "cat": "Panels",
-            "file": "pubed.pdf",
-            "summary": "The Brockport Community Museum dedicated an interpretive panel on public education in Brockport, NY, on December 15, 2006. The panel was sponsored by the Brockport Central School District and featured area dignitaries, relatives of Fred W. Hill, and local citizens. The project was a collaboration between the museum and the school district, with contributions from various individuals and organizations.",
-            "keywords": "Brockport, NY, Interpretive Panels Project, Public Education, Fred W. Hill, Brockport Central School District, Local History, Community Museum."
-        },
-        {
-            "title": "Retail Trade & 20th Century Commerce",
-            "cat": "Exhibits",
-            "file": "retailandtrade.pdf",
-            "summary": "This exhibit case showcases the retail trade and commerce in Brockport, NY, with items dating back to the mid-19th century. The display includes advertisements, trade cards, and other promotional items from businesses such as insurance agencies, confectionery shops, and shoe stores. The case highlights the evolution of retail in Brockport from the 1850s to the mid-20th century.",
-            "keywords": "Brockport, retail trade, commerce, Vick's Directory, 1907, advertising, trade cards."
-        },
-        {
-            "title": "Sagawa Park Murals",
-            "cat": "Panels",
-            "file": "Sagawa mural IP 03.pdf",
-            "summary": "The Brockport Community Museum's Interpretive Panels Project features a series of panels dedicated to the Sagawa Park mural, with one panel funded by the Fred Hill Elementary School 4th and 5th grade classes and dedicated on December 2, 2016. The project involved invitations and a program distributed at the panel dedication, which included guests such as local officials, school administrators, and museum representatives. The project aimed to interpret and showcase the mural in Sagawa Park.",
-            "keywords": "Brockport Community Museum, Interpretive Panels Project, Sagawa Park mural, Fred Hill Elementary School, December 2016."
-        },
-        {
-            "title": "Museum Tour Map & Guide",
-            "cat": "Admin",
-            "file": "tourmap.pdf",
-            "summary": "The document appears to be a tour brochure for the Brockport Community Museum, a non-profit organization that brings local history to residents and visitors through interpretive panels and exhibit cases placed throughout the greater Brockport area. The brochure highlights various themes and locations, including public education, higher education, fire fighting, canal commerce, and historic downtown churches. The museum's mission is to preserve and share the history of Brockport, NY.",
-            "keywords": "Brockport, NY, Museum, Interpretive Panels, Local History, Non-Profit, Community, Education"
-        },
-        {
-            "title": "Venue & Theme Overview",
-            "cat": "Admin",
-            "file": "venues.pdf",
-            "summary": "This is a list of exhibit cases located throughout Brockport, NY, featuring various themes such as local history, manufacturing, and civil war history. The cases are hosted at different community locations, including libraries, banks, and schools, and are available for viewing indoors. The document was last updated in November 2012.",
-            "keywords": "Brockport, NY, Community Museum, Exhibit Cases, Local History, Manufacturing History"
-        }
-    ]
+  "documents": [
+    {
+      "title": "2016 Exhibit Case Venues",
+      "cat": "Admin",
+      "file": "2016 Exhibit Case Venues.pdf",
+      "summary": "This is a 2016 exhibit schedule for the Brockport Community Museum, listing various venues and dates for each exhibit, which covers themes such as manufacturing, history, and local events in Brockport, NY. The schedule includes specific dates for exhibits like \"Manufacturing in Brockport\" and \"Brockport in the Civil War\". The document also provides information on the hosting locations and contact details for each exhibit.",
+      "keywords": "Brockport Community Museum, Exhibits, 2016, Manufacturing, History"
+    },
+    {
+      "title": "2017 Exhibit Case Venues",
+      "cat": "Admin",
+      "file": "2017 Exhibit Case Venues v.2.pdf",
+      "summary": "[BoB updated this]. The Brockport Community Museum is listing its 2017 exhibit case venues, which feature various themes such as manufacturing, the Civil War, and postcards of Brockport. The exhibit cases are located indoors in several venues throughout Brockport, NY. The list includes 9 host locations with their addresses and phone numbers.",
+      "keywords": "Brockport, Community Museum, Exhibits, 2017, Brockport NY"
+    },
+    {
+      "title": "2018 Exhibit Case Venues",
+      "cat": "Admin",
+      "file": "2018 Exhibit Case Venues v.2.pdf",
+      "summary": "This document outlines the exhibit cases and host locations for the 2018 exhibit venues at the Brockport Community Museum in Brockport, NY. The exhibit cases cover various themes, including manufacturing, history, and community events, and are located in various host locations throughout the city. The document provides information on the dates and locations for each exhibit case.",
+      "keywords": "Brockport, Community Museum, 2018, Exhibits, Host Locations"
+    },
+    {
+      "title": "2019-20 Museum Calendar",
+      "cat": "Admin",
+      "file": "2019-20 Calendar v.2020.01.09.pdf",
+      "summary": "This is the 2019-2020 calendar for the Brockport Community Museum, outlining the schedule of board meetings, executive committee meetings, and important deadlines. The calendar includes key names and dates, including board members and their positions, as well as events such as the annual meeting and picnic. The document also includes rules and guidelines for distributing agendas and minutes.",
+      "keywords": "Brockport Community Museum, Board Meetings, Executive Committee, Allan R. Berry, Garrett W. Roe"
+    },
+    {
+      "title": "Bridges and Trails (IP)",
+      "cat": "Panels",
+      "file": "A Bridges %3A Trail IP 20210725.pdf",
+      "summary": "This document appears to be a project plan for an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project includes panels highlighting various aspects of the town's history, including education, fire fighting, commerce, and early farming. The document includes a list of panel locations, topics, and sponsors.",
+      "keywords": "Brockport Community Museum, interpretive panels, history, education, fire fighting, commerce, early farming, Brockport NY, canal commerce, SUNY College at Brockport."
+    },
+    {
+      "title": "Helen Smagorinsky & Campus History",
+      "cat": "Panels",
+      "file": "B HFSmagorinsky IP 20210725.pdf",
+      "summary": "This document appears to be a map of the Brockport, NY area, highlighting various locations of historical significance, including schools, churches, and museums. The document is part of an interpretive panels project, which aims to provide context and information about the area's history. The project includes exhibits, historic markers, and interactive panels.",
+      "keywords": "Brockport, NY, historical markers, interpretive panels, community museum, SUNY College at Brockport, Fire Department, Canal Commerce, downtown churches, early farming, Portraits of Our Past mural."
+    },
+    {
+      "title": "Erie Canal Artifacts & Receipts",
+      "cat": "Exhibits",
+      "file": "bandc.pdf",
+      "summary": "This exhibit case at the Brockport Community Museum explores the history of the Erie Canal and its impact on the town of Brockport, New York, from the early 19th century to the early 20th century. Key events and figures mentioned in the document include the opening of the canal in 1825, the major centers of farm implement manufacturing in Brockport, and the reconstruction of the canal in 1915. The exhibit also highlights the role of local businesses and individuals, such as the Samuel Johnston Co. and the Cleveland Construction Co.",
+      "keywords": "Brockport, Erie Canal, 19th century, 20th century, William Clifford"
+    },
+    {
+      "title": "BCM Destinations Overview",
+      "cat": "Admin",
+      "file": "BCM Destinations 2017.10.11.pdf",
+      "summary": "The Brockport Community Museum is a non-profit organization that brings local history to residents and visitors through interpretive panels and exhibit cases placed throughout the greater Brockport area. The museum, chartered in 2010, has no building of its own and is referred to as a \"Museum without Walls.\" The museum's mission is to educate and engage the community with its local history.",
+      "keywords": "Brockport, Community Museum, Local History, Interpretive Panels, Exhibits"
+    },
+    {
+      "title": "Outdoor Art Interpretive Panel",
+      "cat": "Panels",
+      "file": "C Outdoor Art IP  20210725.pdf",
+      "summary": "The document appears to be a project plan for the Brockport Community Museum's Interpretive Panels Project, which was dedicated on November 14, 2020. The project includes the installation of interpretive panels, exhibit cases, and historic markers throughout the town of Brockport, NY, to provide information about the town's history and attractions. The project was funded by William G. Andrews.",
+      "keywords": "Brockport, NY, Interpretive Panels Project, William G. Andrews, Historic Markers, Exhibit Cases."
+    },
+    {
+      "title": "Canal Commerce Panel",
+      "cat": "Panels",
+      "file": "canalcommerce.pdf",
+      "summary": "The Brockport Community Museum installed an interpretive panel on the Main Street bridge, funded by Express Mart and Northside Service Center, as part of a larger project. The panel was dedicated on October 29, 2011. The installation is located on the canal abutment railing on the south-east corner of the bridge.",
+      "keywords": "Brockport Community Museum, Express Mart, Northside Service Center, Main Street bridge, October 29 2011"
+    },
+    {
+      "title": "Historic Downtown Churches",
+      "cat": "Panels",
+      "file": "Churches IP 01.pdf",
+      "summary": "The Brockport Community Museum installed an interpretive panel in Sagawa Park, funded by local churches and dedicated on October 19, 2013. The panel is located near several prominent churches in Brockport, NY. This panel is part of a larger project initiated by the Museum.",
+      "keywords": "Brockport Community Museum, Interpretive Panels, Brockport Churches, Sagawa Park, October 19, 2013"
+    },
+    {
+      "title": "Civil War History in Brockport",
+      "cat": "Exhibits",
+      "file": "civilwar.pdf",
+      "summary": "This document is an exhibit case from the Brockport Community Museum, highlighting the history of Brockport, NY during the American Civil War. The exhibit features the stories of two local soldiers, Morton A. Read and Lester Cady, who were awarded the Medal of Honor and imprisoned during the war. The exhibit also includes artifacts from the Erie Canal and its enlargement during the 20th century.",
+      "keywords": "Brockport, NY, American Civil War, Erie Canal, Morton A. Read, Lester Cady, Medal of Honor, Grand Army of the Republic"
+    },
+    {
+      "title": "Erie Canal Kiosk Project",
+      "cat": "Panels",
+      "file": "D Brockport Erie Canal Kiosk 20210731.pdf",
+      "summary": "The Brockport Community Museum's Interpretive Panels Project features a collection of panels highlighting various aspects of Brockport, NY's history, including its education, fire fighting, canal commerce, and downtown area. The project includes photographs and descriptions of the panels' locations around the town. The document also lists historic markers and exhibit cases throughout the area.",
+      "keywords": "Brockport, NY, Interpretive Panels, Historic Markers, Exhibit Cases, Canal Commerce, Fire Fighting, Education, Downtown Brockport"
+    },
+    {
+      "title": "Early Farming & Farm Families",
+      "cat": "Panels",
+      "file": "Farms Families IP 01.pdf",
+      "summary": "The Brockport Community Museum in Brockport, NY placed an interpretive panel, funded by the Town of Sweden Harvest Festival, in September 2014. The panel is located behind the Town of Sweden Farmers Museum and faces west towards Lake Road (Rt. 19). This is the eighth panel placed by the museum.",
+      "keywords": "Brockport Community Museum, Town of Sweden Harvest Festival, September 2014, Interpretive Panel, Lake Road"
+    },
+    {
+      "title": "Fire Department History Panel",
+      "cat": "Panels",
+      "file": "firedept.pdf",
+      "summary": "The Brockport Community Museum installed an interpretive panel in 2011 with funding from the Brockport Fire Department. The panel is located in front of the Brockport Fire Department building on Market Street. The project was documented with photographs by Norm Frisch.",
+      "keywords": "Brockport, Community, Museum, Interpretive, Panels"
+    },
+    {
+      "title": "Firefighting in Brockport Exhibit",
+      "cat": "Exhibits",
+      "file": "firefighting.pdf",
+      "summary": "This historical document is from the Brockport Community Museum and showcases the history of firefighting in Brockport, NY, with a focus on the 19th and 20th centuries. The document includes exhibit case descriptions, photographs, and historical documents, such as a 1829 village ordinance requiring building owners to keep fire buckets. It also highlights notable events and individuals, including the 41st Annual Convention of the Western New York Association of Volunteer Firefighters in 1940.",
+      "keywords": "Brockport, NY, Firefighting, Western New York Association of Volunteer Firefighters, Capen Hose Company, Historical Documents"
+    },
+    {
+      "title": "Friends of the Museum",
+      "cat": "Admin",
+      "file": "friends.pdf",
+      "summary": "The Brockport Community Museum recognizes and acknowledges the support and contributions of various individuals and organizations to the museum, including donors, sponsors, and volunteers. The document lists the different types of membership classifications and acknowledges the contributions of specific individuals and organizations in 2010 and 2012. The document highlights the importance of community support to the museum.",
+      "keywords": "Brockport Community Museum, membership classifications, community support, donations, volunteers"
+    },
+    {
+      "title": "Higher Education in Brockport",
+      "cat": "Panels",
+      "file": "highered.pdf",
+      "summary": "This document details the creation and dedication of an interpretive panel in Brockport, NY, sponsored by The College at Brockport. The panel was dedicated on December 5, 2008, and features a collaborative effort between the college, the museum, and local community members. The document highlights the committee members, acknowledgments, and image sources used for the panel.",
+      "keywords": "Brockport, NY, College at Brockport, Interpretive Panels, Community Museum, Committee Members"
+    },
+    {
+      "title": "J. Capen Hydrant History",
+      "cat": "Panels",
+      "file": "J. Capen IP 20220215.pdf",
+      "summary": "The document appears to be a project plan for the Brockport Community Museum's interpretive panels project, which aims to educate visitors about the history of Brockport, NY. The project involves installing panels throughout the city, funded by various organizations and individuals. The panels are designed to showcase the history of Brockport's education, fire fighting, canal commerce, and other significant aspects of the city's past.",
+      "keywords": "Brockport, NY, Capen Hose Co. No.4, Interpretive Panels, History, Museum, Community, Education, Fire Fighting, Canal Commerce, SUNY College at Brockport, Historic Downtown Churches."
+    },
+    {
+      "title": "1979 Special Olympics Panel",
+      "cat": "Panels",
+      "file": "K. Special Olympics 20220215.pdf",
+      "summary": "The document appears to be a guide to an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project includes panels and exhibit cases that showcase the history of the area, including education, fire fighting, canal commerce, and early farming. The project was funded by SUNY College at Brockport and dedicated on September 27, 2019.",
+      "keywords": "Brockport, NY, SUNY College, SUNY College at Brockport, Interpretive Panels, Historical Markers, Exhibit Cases, Community Museum, Education, Fire Fighting, Canal Commerce"
+    },
+    {
+      "title": "Morgan-Manning House & History",
+      "cat": "Panels",
+      "file": "L. Morgan - Manning 2022.03.19.pdf",
+      "summary": "This document appears to be a project report for the Brockport Community Museum's Interpretive Panels Project, which aims to highlight the history of Brockport, NY through various exhibits and panels. The project was funded by the Western Monroe Historical Society and dedicated to the memory of Fletcher and Alice Garlock. The report includes details on the location and content of the panels, as well as other exhibits and markers.",
+      "keywords": "Brockport, NY, Interpretive Panels, Western Monroe Historical Society, Fletcher Garlock, Alice Garlock, Morgan-Manning House, Historic Markers, Exhibit Cases, Brockport Community Museum."
+    },
+    {
+      "title": "Erie Canal Panel Redesign",
+      "cat": "Panels",
+      "file": "M. Canal IP redo 20220215.pdf",
+      "summary": "The document appears to be a project plan for an interpretive panels project at the Brockport Community Museum in Brockport, NY. The project aims to install panels and markers to provide historical information and context to various sites and buildings in the area. The project was completed in 2021.",
+      "keywords": "Brockport Community Museum, Brockport NY, Interpretive Panels, Historical Markers, Exhibits Cases"
+    },
+    {
+      "title": "Main & Market Street History",
+      "cat": "Panels",
+      "file": "Main St. IP 01.pdf",
+      "summary": "The Brockport Community Museum installed an interpretive panel, funded by 4th and 5th grade students, on May 4, 2013, in downtown Brockport, NY. The panel is located near the intersection of Main and Market Streets. The project is part of the Museum's efforts to engage with the community.",
+      "keywords": "Brockport Community Museum, Interpretive Panels Project, Mary Wanzer, Eileen Youngbluth, 2013"
+    },
+    {
+      "title": "Manufacturing in Brockport (Part 1)",
+      "cat": "Exhibits",
+      "file": "manu1.pdf",
+      "summary": "This document details the proposed exhibit \"Manufacturing in Brockport\" at the Brockport Community Museum, featuring objects manufactured in Brockport, including items from various companies such as Karge & Son, Great Lakes Button Corp., and Owens-Illinois Glass Co. The exhibit aims to showcase the city's industrial history, particularly related to the Erie Canal and its enlargement in the early 20th century. The document includes a list of artifacts, their lenders, and the setup team.",
+      "keywords": "Brockport Community Museum, Manufacturing in Brockport, Erie Canal, Brockport NY, Industrial history"
+    },
+    {
+      "title": "Manufacturing in Brockport (Part 2)",
+      "cat": "Exhibits",
+      "file": "manu2.pdf",
+      "summary": "The document is an exhibit case description from the Brockport Community Museum, highlighting the town's manufacturing history, including the production of pianos, glass bottles, and food products, as well as its involvement in the Erie Canal and its impact on the local economy. The document features various artifacts and notes the contributions of local businesses and individuals to the town's prosperity. The exhibit case is divided into three parts, showcasing the town's manufacturing history from the early 19th century to the mid-20th century.",
+      "keywords": "Brockport, NY, Erie Canal, Manufacturing, Industry, Local History"
+    },
+    {
+      "title": "Life of Mary Jane Holmes",
+      "cat": "Exhibits",
+      "file": "maryjamesholmes.pdf",
+      "summary": "This document describes the life and work of Mary Jane Holmes, a prominent American novelist in the 19th century who lived in Brockport, NY. The exhibit case features original copies of her books, showcasing her unique portrayal of strong, independent women. Holmes was a prolific author, publishing over 40 novels and short story collections, and her work was widely read by millions of women and girls.",
+      "keywords": "Mary Jane Holmes, Brockport Community Museum, 19th century novelist, Women's literature, Suffragette movement"
+    },
+    {
+      "title": "Updated Manufacturing Panels",
+      "cat": "Panels",
+      "file": "N. Manufacturing IP 20220215.pdf",
+      "summary": "The document appears to be a project summary for the Brockport Community Museum's Interpretive Panels Project, which involved creating and installing 31 panels in the village of Brockport, NY. The project was completed in 2021 and features a mix of interpretive panels and exhibit cases showcasing the history and culture of the area. The document highlights the various panels and cases, which focus on topics such as public education, higher education, fire fighting, canal commerce, and historic downtown churches.",
+      "keywords": "Brockport, NY, Interpretive Panels, History, Culture, Museum, Community, Education, Fire Fighting, Canal Commerce, Downtown Churches, Farming, Family, SUNY College at Brockport."
+    },
+    {
+      "title": "A.D. Oliver School & Canal History",
+      "cat": "Exhibits",
+      "file": "oliverschool.pdf",
+      "summary": "This document is an exhibit case from the Brockport Community Museum, showcasing the history of the Erie Canal and its impact on the town of Brockport, NY. The exhibit features various artifacts, maps, and documents from the 1820s to the 1950s, highlighting the canal's construction, operation, and eventual conversion to power craft. Key figures mentioned include William Clifford, District Superintendent of the NYS Canal Corporation, and companies such as the Samuel Johnston Co. and the Cleveland Construction Co.",
+      "keywords": "Brockport, NY, Erie Canal, Oliver School Building, William Clifford, Erie Canal Corporation"
+    },
+    {
+      "title": "Postcards of Brockport (1910)",
+      "cat": "Exhibits",
+      "file": "postcards.pdf",
+      "summary": "This document is an exhibit case description from the Brockport Community Museum, featuring a collection of postcards from Brockport, NY, dating back to around 1910. The exhibit showcases various buildings, hotels, and landmarks from the time period, including schools, churches, and businesses. The document also encourages visitors to explore the museum's physical exhibits located throughout the community.",
+      "keywords": "Brockport, NY, Postcards, 1910, Historical Landmarks, Community Museum"
+    },
+    {
+      "title": "The Protectives History Panel",
+      "cat": "Panels",
+      "file": "protectives.pdf",
+      "summary": "The Brockport Community Museum installed an interpretive panel sponsored by The Protectives, Inc. on September 18, 1010. The panel is located in front of the Protectives building on West Avenue. The museum had previously installed two other panels.",
+      "keywords": "Brockport Community Museum, The Protectives, Inc., Interpretive Panels, West Avenue, September 18, 1010"
+    },
+    {
+      "title": "Public Education in Brockport",
+      "cat": "Panels",
+      "file": "pubed.pdf",
+      "summary": "The Brockport Community Museum dedicated an interpretive panel on public education in Brockport, NY, on December 15, 2006. The panel was sponsored by the Brockport Central School District and featured area dignitaries, relatives of Fred W. Hill, and local citizens. The project was a collaboration between the museum and the school district, with contributions from various individuals and organizations.",
+      "keywords": "Brockport, NY, Interpretive Panels Project, Public Education, Fred W. Hill, Brockport Central School District, Local History, Community Museum."
+    },
+    {
+      "title": "Retail Trade & 20th Century Commerce",
+      "cat": "Exhibits",
+      "file": "retailandtrade.pdf",
+      "summary": "This exhibit case showcases the retail trade and commerce in Brockport, NY, with items dating back to the mid-19th century. The display includes advertisements, trade cards, and other promotional items from businesses such as insurance agencies, confectionery shops, and shoe stores. The case highlights the evolution of retail in Brockport from the 1850s to the mid-20th century.",
+      "keywords": "Brockport, retail trade, commerce, Vick's Directory, 1907, advertising, trade cards."
+    },
+    {
+      "title": "Sagawa Park Murals",
+      "cat": "Panels",
+      "file": "Sagawa mural IP 03.pdf",
+      "summary": "The Brockport Community Museum's Interpretive Panels Project features a series of panels dedicated to the Sagawa Park mural, with one panel funded by the Fred Hill Elementary School 4th and 5th grade classes and dedicated on December 2, 2016. The project involved invitations and a program distributed at the panel dedication, which included guests such as local officials, school administrators, and museum representatives. The project aimed to interpret and showcase the mural in Sagawa Park.",
+      "keywords": "Brockport Community Museum, Interpretive Panels Project, Sagawa Park mural, Fred Hill Elementary School, December 2016."
+    },
+    {
+      "title": "Museum Tour Map & Guide",
+      "cat": "Admin",
+      "file": "tourmap.pdf",
+      "summary": "The document appears to be a tour brochure for the Brockport Community Museum, a non-profit organization that brings local history to residents and visitors through interpretive panels and exhibit cases placed throughout the greater Brockport area. The brochure highlights various themes and locations, including public education, higher education, fire fighting, canal commerce, and historic downtown churches. The museum's mission is to preserve and share the history of Brockport, NY.",
+      "keywords": "Brockport, NY, Museum, Interpretive Panels, Local History, Non-Profit, Community, Education"
+    },
+    {
+      "title": "Venue & Theme Overview",
+      "cat": "Admin",
+      "file": "venues.pdf",
+      "summary": "This is a list of exhibit cases located throughout Brockport, NY, featuring various themes such as local history, manufacturing, and civil war history. The cases are hosted at different community locations, including libraries, banks, and schools, and are available for viewing indoors. The document was last updated in November 2012.",
+      "keywords": "Brockport, NY, Community Museum, Exhibit Cases, Local History, Manufacturing History"
+    }
+  ]
 }
