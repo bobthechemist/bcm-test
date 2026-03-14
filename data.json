@@ -209,6 +209,12 @@
       "cat": "Admin",
       "file": "venues.pdf",
       "summary": "A high-level summary of museum partners and the nine major themes rotated through local exhibit cases."
+    },
+    {
+      "file": "archive/test.pdf.pdf",
+      "title": "a test file for checking the upload procedure",
+      "cat": "Panels",
+      "summary": "this is a summary of the file."
     }
   ]
 }
