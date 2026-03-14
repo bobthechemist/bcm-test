@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCM Digital Archive | Research Library</title>
     
-    <!-- ADDED: Netlify Identity Widget -->
+    <!-- Netlify Identity for CMS Login -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
+    <!-- Fuse.js for Fuzzy Search -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,13 +32,15 @@
         }
     </script>
     <style>
-        .ledger-line { border-bottom: 1px solid rgba(26, 54, 93, 0.1); }
+        .ledger-border { border: 1px solid rgba(26, 54, 93, 0.1); }
         .bg-grain { background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); }
         .modal-shadow { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1); }
+        .card-hover:hover { border-color: #9c4221; transform: translateY(-2px); transition: all 0.2s ease; }
     </style>
 </head>
 <body class="bg-parchment bg-grain text-ink font-sans min-h-screen">
 
+    <!-- NAVIGATION -->
     <nav class="border-b-2 border-canalBlue p-6 bg-white/50 backdrop-blur-sm sticky top-0 z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <h1 class="font-serif text-2xl font-bold text-canalBlue tracking-tight">Brockport Community Museum</h1>
@@ -49,17 +54,19 @@
     </nav>
 
     <header class="max-w-4xl mx-auto pt-16 pb-8 text-center px-4">
-        <span class="text-brickDust font-serif italic uppercase tracking-widest text-xs">Digital Archive Modernization</span>
+        <span class="text-brickDust font-serif italic uppercase tracking-widest text-xs">AI-Enhanced Research Portal</span>
         <h2 class="font-serif text-4xl md:text-5xl mt-4 mb-6 text-canalBlue">The Research Library</h2>
         <div class="h-1 w-24 bg-brickDust mx-auto mb-8"></div>
     </header>
 
+    <!-- SEARCH & FILTERS -->
     <main class="max-w-6xl mx-auto px-4 pb-24">
-        <div class="bg-white border border-gray-200 p-6 mb-8 shadow-sm">
+        
+        <div class="bg-white border border-gray-200 p-6 mb-12 shadow-sm">
             <div class="flex flex-col md:flex-row gap-6 items-end">
                 <div class="flex-grow">
-                    <label class="font-serif italic text-sm block mb-2 text-canalBlue">Search by Keyword</label>
-                    <input type="text" id="searchInput" placeholder="Start typing to filter records..." 
+                    <label class="font-serif italic text-sm block mb-2 text-canalBlue">Search Archive (e.g. "Canal receipts", "Civil War soldiers")</label>
+                    <input type="text" id="searchInput" placeholder="Search by keyword, person, or date..." 
                            class="w-full p-3 border-b-2 border-canalBlue bg-parchment focus:outline-none focus:border-brickDust font-serif text-lg">
                 </div>
                 <div class="flex gap-2">
@@ -71,105 +78,144 @@
                     </select>
                 </div>
             </div>
+            <div id="searchStats" class="mt-4 text-[10px] uppercase tracking-widest text-gray-400 font-bold">
+                Showing all records
+            </div>
         </div>
 
-        <div class="bg-white border border-gray-200 shadow-xl overflow-x-auto">
-            <table class="w-full text-left border-collapse">
-                <thead class="bg-canalBlue text-white font-serif">
-                    <tr>
-                        <th class="p-4 uppercase text-[10px] tracking-[0.2em]">Title & Preview</th>
-                        <th class="p-4 uppercase text-[10px] tracking-[0.2em]">Category</th>
-                        <th class="p-4 uppercase text-[10px] tracking-[0.2em] text-right">Access</th>
-                    </tr>
-                </thead>
-                <tbody id="documentTable" class="font-sans"></tbody>
-            </table>
+        <!-- DOCUMENT GRID -->
+        <div id="documentGrid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Cards Injected by JS -->
         </div>
     </main>
 
+    <!-- MODAL FOR PREVIEW -->
     <div id="previewModal" class="hidden fixed inset-0 bg-canalBlue/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
         <div class="bg-parchment max-w-2xl w-full p-8 border-t-8 border-brickDust modal-shadow relative">
             <button onclick="closeModal()" class="absolute top-4 right-4 text-canalBlue text-2xl font-bold">&times;</button>
             <h3 id="modalTitle" class="font-serif text-2xl text-canalBlue mb-4"></h3>
             <p id="modalBody" class="text-gray-700 leading-relaxed mb-8 italic"></p>
+            <div id="modalKeywords" class="mb-8 flex flex-wrap gap-2"></div>
             <a id="modalLink" href="#" target="_blank" class="inline-block bg-canalBlue text-white font-serif px-6 py-3 hover:bg-brickDust transition">Download Full PDF</a>
         </div>
     </div>
 
     <script>
-        let documents = [];
+let documents = [];
+let fuse;
 
-        async function loadData() {
-            try {
-                const response = await fetch('data.json');
-                const data = await response.json();
-                documents = data.documents; // CMS wraps data in a 'documents' key
-                renderTable(documents);
-            } catch (error) {
-                console.error("Error loading the filing cabinet:", error);
-            }
-        }
+async function loadData() {
+    try {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        documents = data.documents;
 
-        function renderTable(data) {
-            const table = document.getElementById('documentTable');
-            if (!data) return;
-            table.innerHTML = data.map((doc, index) => `
-                <tr class="ledger-line hover:bg-parchment transition group">
-                    <td class="p-4">
-                        <div class="font-bold text-canalBlue text-lg group-hover:text-brickDust transition cursor-pointer" onclick="openPreview(${index})">
-                            ${doc.title}
-                        </div>
-                    </td>
-                    <td class="p-4">
-                        <span class="text-[10px] uppercase tracking-widest border border-gray-300 px-2 py-1 bg-white">${doc.cat}</span>
-                    </td>
-                    <td class="p-4 text-right">
-                        <a href="archive/${doc.file}" target="_blank" class="inline-block border-2 border-canalBlue p-2 hover:bg-canalBlue hover:text-white transition">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
-                        </a>
-                    </td>
-                </tr>
-            `).join('');
-        }
+        // Initialize Fuzzy Search Engine
+        fuse = new Fuse(documents, {
+            keys: [
+                { name: 'title', weight: 1.0 },
+                { name: 'summary', weight: 0.7 },
+                { name: 'keywords', weight: 0.5 },
+                { name: 'cat', weight: 0.3 }
+            ],
+            threshold: 0.3,
+            ignoreLocation: true
+        });
 
-        function updateTable() {
-            const term = document.getElementById('searchInput').value.toLowerCase();
-            const cat = document.getElementById('catFilter').value;
-            const filtered = documents.filter(doc => {
-                const matchesSearch = doc.title.toLowerCase().includes(term) || (doc.summary && doc.summary.toLowerCase().includes(term));
-                const matchesCat = cat === 'All' || doc.cat === cat;
-                return matchesSearch && matchesCat;
-            });
-            renderTable(filtered);
-        }
+        renderGrid(documents);
+    } catch (error) {
+        console.error("Error loading archive:", error);
+    }
+}
 
-        document.getElementById('searchInput').addEventListener('input', updateTable);
-        document.getElementById('catFilter').addEventListener('change', updateTable);
+function renderGrid(data) {
+    const grid = document.getElementById('documentGrid');
+    const stats = document.getElementById('searchStats');
+    
+    stats.innerText = `Showing ${data.length} records`;
 
-        function openPreview(index) {
-            const doc = documents[index];
-            document.getElementById('modalTitle').innerText = doc.title;
-            document.getElementById('modalBody').innerText = doc.summary || "";
-            document.getElementById('modalLink').href = 'archive/' + doc.file;
-            document.getElementById('previewModal').classList.remove('hidden');
-        }
+    grid.innerHTML = data.map((doc, index) => `
+        <div class="bg-white p-6 ledger-border card-hover relative flex flex-col justify-between">
+            <div>
+                <div class="flex justify-between items-start mb-4">
+                    <span class="text-[10px] uppercase tracking-widest border border-gray-200 px-2 py-1 bg-parchment text-gray-500">
+                        ${doc.cat}
+                    </span>
+                    <a href="archive/${doc.file}" target="_blank" class="text-canalBlue hover:text-brickDust transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </a>
+                </div>
+                <h3 class="font-serif text-xl text-canalBlue font-bold mb-3 cursor-pointer hover:underline" onclick="openPreview('${doc.file}')">
+                    ${doc.title}
+                </h3>
+                <p class="text-sm text-gray-600 leading-relaxed italic line-clamp-3 mb-4">
+                    ${doc.summary || 'No summary available for this document.'}
+                </p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-100">
+                <div class="text-[9px] uppercase tracking-tighter text-gray-400 font-bold mb-2">Key Topics</div>
+                <div class="flex flex-wrap gap-1">
+                    ${(doc.keywords || "").split(',').slice(0, 3).map(tag => `
+                        <span class="bg-gray-50 text-gray-500 px-2 py-0.5 text-[9px] rounded-sm border border-gray-100">${tag.trim()}</span>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+    `).join('');
+}
 
-        function closeModal() {
-            document.getElementById('previewModal').classList.add('hidden');
-        }
+function updateView() {
+    const term = document.getElementById('searchInput').value;
+    const cat = document.getElementById('catFilter').value;
+    
+    let results = term ? fuse.search(term).map(r => r.item) : documents;
 
-        loadData();
+    const filtered = results.filter(doc => {
+        return cat === 'All' || doc.cat === cat;
+    });
 
-        // ADDED: Logic to handle the Netlify Identity login redirect
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
+    renderGrid(filtered);
+}
+
+document.getElementById('searchInput').addEventListener('input', updateView);
+document.getElementById('catFilter').addEventListener('change', updateView);
+
+function openPreview(fileName) {
+    const doc = documents.find(d => d.file === fileName);
+    if (!doc) return;
+
+    document.getElementById('modalTitle').innerText = doc.title;
+    document.getElementById('modalBody').innerText = doc.summary || "No summary available.";
+    document.getElementById('modalLink').href = 'archive/' + doc.file;
+    
+    const kwBox = document.getElementById('modalKeywords');
+    kwBox.innerHTML = (doc.keywords || "").split(',').map(tag => `
+        <span class="bg-canalBlue/5 text-canalBlue px-3 py-1 text-[10px] uppercase font-bold tracking-widest border border-canalBlue/10">
+            ${tag.trim()}
+        </span>
+    `).join('');
+
+    document.getElementById('previewModal').classList.remove('hidden');
+}
+
+function closeModal() {
+    document.getElementById('previewModal').classList.add('hidden');
+}
+
+// Redirect logic for Netlify Identity
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
+
+loadData();
     </script>
 </body>
 </html>
