@@ -2,20 +2,23 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "archive" # Where PDFs will be uploaded
+media_folder: "archive"
 public_folder: "archive"
 
 collections:
-  - name: "documents"
-    label: "Library Records"
-    file: "data.json" # The file we are editing
-    allow_add: true
-    fields:
-      - label: "All Documents"
-        name: "documents"
-        widget: "list"
+  - name: "data"
+    label: "Archive Data"
+    files: # This must be plural
+      - label: "Document List"
+        name: "library"
+        file: "data.json" # The path to your file
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Category", name: "cat", widget: "select", options: ["Exhibits", "Panels", "Admin"] }
-          - { label: "Summary", name: "summary", widget: "text" }
-          - { label: "PDF File", name: "file", widget: "file" }
+          - label: "Documents"
+            name: "documents"
+            widget: "list"
+            summary: '{{fields.title}}'
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "cat", widget: "select", options: ["Exhibits", "Panels", "Admin"] }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "PDF File", name: "file", widget: "file" }
